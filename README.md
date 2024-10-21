@@ -10,7 +10,7 @@ I mostly enjoyed exploring the dependency reports that I created for my code. Th
 The dependency check tool was the most helpful. It made checked for vulnerabilities infinitely faster and easier.
 
 ## How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
-Through testing most of the vulnerabilities were caused by using old libraries so by updating the libraries currently in use in the code more secure software is created. Using penetration testing in the future will better assess the and additional vulnerabilities within the code.
+Through testing, most of the vulnerabilities were caused by outdated libraries so by updating the libraries currently in use in the code more secure software is created. Using penetration testing in the future will better assess the and additional vulnerabilities within the code.
 
 ## How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
 Something that I've always done was block checking. When I finish a block of code, I run it to see if any errors arise. If nothing breaks, I move on to the next block. After refactoring the code, I would rerun the dependency check to ensure no new vulnerabilities popped up.
